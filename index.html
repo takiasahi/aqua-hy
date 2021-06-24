@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>おおみや水族館</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link href="css/style.css" rel="stylesheet">
+  <!-- フォント -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ヘッダー -->
+  <header class="page_header">
+    <h1 class="header_logo"><a href="index.html"><img src="img/logo.jpg" alt="水族館ロゴ・おおみや水族館"></a></h1> 
+
+    <!-- メニュー -->
+    <nav class="menu_content">
+      <ul class="menu_list">
+        <li><a class="menu_link" href="#language">Language</a></li>
+        <li><a class="menu_link" href="#ticket">チケット購入</a></li>
+        <li><a class="menu_link" href="#access">アクセス </a></li>
+      </ul>
+      <input type="checkbox" id="menu_btn_check">
+      <label for="menu_btn_check" class="menu_btn">
+        <span></span>
+      </label>
+      <div class="hamburger">
+        <div class="right_block">
+          <div class="button_block">
+            <a href="#" class="hbg_link btn_hbg btn_link">チケット購入のご案内</a>
+            <a href="#" class="hbg_link btn_hbg btn_link">年間パスポートのご案内</a>
+          </div>
+          <div class="info-block">
+            <div class="info_guidecorse">
+              <div>
+                <a class="hmbg_subtitle hbg_link" href="#guide">施設案内</a>
+                <ul class="indent_list">
+                  <li class="hbg_link"><a href="#">フロアマップ</a></li>
+                  <li class="hbg_link"><a href="#">生き物図鑑</a></li>
+                  <li class="hbg_link"><a href="#access">アクセス</a></li>
+                  <li class="hbg_link"><a href="#price">料金</a></li>
+                  <li class="hbg_link"><a href="#">団体のお客様</a></li>
+                  <li class="hbg_link"><a href="#infomation">営業日・営業時間</a></li>
+                </ul>
+              </div>
+              <div>
+                <a class="hmbg_subtitle hbg_link" href="#course">モデルコース</a>
+                <ul class="indent_list">
+                  <li class="hbg_link"><a href="#">家族で</a></li>
+                  <li class="hbg_link"><a href="#">カップルで</a></li>
+                  <li class="hbg_link"><a href="#">友だちと</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="info_eventcompany">
+              <div>
+                <a class="hmbg_subtitle hbg_link" href="#">イベント情報</a>
+                <ul class="indent_list">
+                  <li class="hbg_link"><a href="#">今日のイベント</a></li>
+                  <li class="hbg_link"><a href="#">ナイトアクアリウム</a></li>
+                </ul>
+              </div>
+              <div>
+                <ul>
+                  <li><a class="info_company hbg_link" href="#">最新情報</a></li>
+                  <li><a class="info_company hbg_link"s href="#">採用情報</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>  <!-- info_block -->
+        </div>   <!-- right_block -->
+        <div class="left_block">
+          <a class="hmbg_title hbg_link" href="#">おおみや水族館</a>
+          <div>
+            <p class="hmbg_subtitle">住所</p>
+            <p>
+              埼玉県さいたま市大宮区<br>
+              錦町1-1-1<br>
+              電話番号<br>
+              042-0000-0000
+            </p>
+          </div>
+        </div>  <!-- left_block -->
+      </div>  <!-- hamburger -->
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ヘッダー高さを入れておく -->
+    <div class="header_space"></div>
+    <!-- ファーストビュー -->
+    <section class="fv">
+      <div class="fv_text">
+        <p class="fv_subtitle" >海を、もっと身近に</p>
+        <h2>おおみや水族館</h2>
+        <p class="fv_renewal">2021.6.1　RENEWAL OPEN !!</p>
+      </div>
+    </section>
+
+    <!-- 背景画像を入れる範囲を定義する -->
+    <div class="swimmer_wrapper">
+
+      <!-- 本日のお知らせ -->
+      <div class="today_info">
+        <div class="today_timeticket">
+          <div class="today_info_time">
+            <p class="today_info_content">本日の営業時間</p>
+            <p class="today_info_content">9:00 ～ 18:00</p>
+          </div>
+          <div class="today_info_ticket">
+            <p class="today_info_content">チケット情報</p>
+            <p class="today_info_content">当日券を購入する＞</p>
+          </div>
+        </div>
+        <div class="today_info_event">
+          <p class="today_info_content">本日のプログラム</p>
+          <p class="today_info_content">10:00 ～ イルカショー ＞</p>
+        </div>
+      </div>
+    
+      <!-- おすすめ情報 -->
+      <section id="recommend" class="contents_inner">
+        <h3>～ おすすめ情報 ～</h3>
+        <div class="recommend_list">
+          <div class="recommend_card">
+            <a class="recommend_link" href="#">
+              <div><img src="img/recommended-1.jpg" alt="シャチの写真"></div>
+              <p class="section_text">
+                見どころを一挙紹介！<br>
+                おおみや水族館特集
+              </p>
+            </a>
+          </div>
+          <div class="recommend_card">
+            <a class="recommend_link" href="#">
+              <div><img src="img/recommended-2.jpg" alt="子どもの写真"></div>
+              <p class="section_text">
+                オープン記念！<br>
+                年間パス１０％ＯＦＦ
+              </p>
+            </a>
+          </div>
+          <div class="recommend_card">
+            <a class="recommend_link" href="#">
+              <div><img src="img/recommended-3.jpg" alt="ナイトアクアリウムの写真"></div>
+              <p class="section_text">
+                毎月第２、４土曜日<br>
+                ナイトアクアリウム開催！
+              </p>
+            </a>
+          </div>
+        </div>
+      </section>
+      
+      <!-- ニュース -->
+      <section id="news" class="contents_inner">
+        <h3>～ ニュース ～</h3>
+        <div class="news_wrapper">
+          <table class="news_list">
+            <tr>
+              <th>2020年1月11日</th>
+              <td>水族館がオープンしました！</td>
+            </tr>
+            <tr>
+              <th>2020年1月11日</th>
+              <td>水族館がオープンしました！</td>
+            </tr>
+            <tr>
+              <th>2020年1月11日</th>
+              <td>水族館がオープンしました！</td>
+            </tr>
+          </table>
+          <p class="section_text">ニュースをもっと見る＞</p>
+        </div>
+      </section>
+      
+      <section id="course" class="contents_inner">
+        <h3>～ モデルコース ～</h3>
+        <div class="course_list">
+          <a class="course_card" href="#">
+            <div><img src="img/model-1.jpg" alt="家族写真"></div>
+            <h4>家族で</h4>
+          </a>
+          <a class="course_card" href="#">
+            <div><img src="img/model-2.jpg" alt="カップル写真"></div>
+            <h4>カップルで</h4>
+          </a>
+          <a class="course_card" href="#">
+            <div><img src="img/model-3.jpg" alt="友だち写真"></div>
+            <h4>友だちと</h4>
+          </a>
+        </div>
+      </section>
+
+      <section id="guide" class="contents_inner">
+        <h3>～ 施設案内 ～</h3>
+        <div class="guide_list">
+          <a class="guide_card" href="#">
+            <div><img src="img/guide-1.jpg" alt="大勢の人がフロアにいる写真"></div>
+            <h4>フロアマップ</h4>
+            <p class="section_text">水族館内の案内図です。<br>
+              イベントの開催場所も確認していただけます。</p>
+          </a>
+          <a class="guide_card" href="#">
+            <div><img src="img/guide-2.jpg" alt="ちんあなごの写真"></div>
+            <h4>生き物図鑑</h4>
+            <p class="section_text">当水族館で暮らす生き物を紹介します。</p>
+          </a>
+        </div>      
+      </section>
+
+      <section id="access" class="contents_inner">
+        <h3>～ アクセス ～</h2>
+        <div class="access_map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3231.655650466818!2d139.62166611490989!3d35.90644848014241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018c143cc2c5285%3A0x280f665a32e5d413!2z5aSn5a6u6aeF!5e0!3m2!1sja!2sjp!4v1622643075995!5m2!1sja!2sjp" width=100% height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="access_content">
+          <div class="access_info">
+            <h4>住所</h4>
+            <p class="section_text">埼玉県さいたま市大宮区<br class="sp_br">
+              錦町1-1-1<br>
+            電話番号<br>
+            TEL 042-000-0000</p>
+          </div>
+          <div class="access_info">
+            <h4>電車でお越しの場合</h4>
+            <p class="section_text">京浜東北線　大宮駅より徒歩１０分</p>
+            <a href="#" class="btn_train btn_link">お車・バスでお越しの場合</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="price" class="contents_inner">
+        <h3>～ 料金 ～</h3>
+        <div class="price_type">
+          <div class="price_info">
+            <h4>当日券</h4>
+            <ul>
+              <li>大人（高校生以上）　1,600円</li>
+              <li>中学生・小学生　1,000円</li>
+              <li>幼児（４歳以上）　600円</li>
+              <li>シルバー（65歳以上）　1,000円</li>
+            </ul>
+          </div>
+          <div class="price_info">
+            <h4>年間パスポート</h4>
+            <ul>
+              <li>高校生以上　3,200円</li>
+              <li>中学生・小学生　2,000円</li>
+              <li>幼児（４歳以上）　1,200円</li>
+              <li>シルバー（65歳以上）　2,000円</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="btn_group_wrapper">
+          <a href="#" class="btn_group btn_link">団体でお越しの方 ＞</a> 
+        </div>
+
+      </section>
+      
+      <section class="banner">
+        <div class="banner_grid">
+          <a href="#"><img src="img/banner1.png" alt="年間パスポートのバナー"></a>
+          <a href="#"><img src="img/banner2.png" alt="ナイトアクアリウムのバナー"></a>
+          <a href="#"><img src="img/banner3.png" alt="おおみやエリアガイドのバナー"></a>
+        </div>
+      </section>
+      
+      <div class="btn_return_wrapper">
+        <a href="#" class="btn_return btn_link">ページトップへ</a>
+      </div>
+
+    </div> <!-- 背景画像の範囲 -->
+      
+  </main>
+  
+  <footer>
+    
+    <div class="wrapper">
+
+      <p class="footer_title">おおみや水族館</p>
+      <div class="footer_info">
+        <div class="footer_content">
+          <p class="content_title">住所</p>
+          <p class="footer_text">
+            埼玉県さいたま市大宮区錦町1-1-1<br>
+            電話番号<br>
+            042-0000-0000
+          </p>
+        </div>
+        <div class="footer_content">
+          <p class="content_title">営業時間</p>
+          <p class="footer_text">
+            9：00 ～ 18：00 （第2,4土曜日は21時まで）<br>
+            休業日<br>
+            1/1, 毎週水曜日
+          </p>
+        </div>
+      </div>
+
+      <ul class="footer_menu">
+        <li><a href="#">会社概要</a></li>
+        <li><a href="#">安全への取組</a></li>
+        <li><a href="#">個人情報保護方針</a></li>
+        <li><a href="#">採用情報</a></li>
+        <li><a href="#">サイトマップ</a></li>
+      </ul>
+
+      <p class="credit">© H.Y Design All Rights Reserved.</p>
+    </div>
+  </footer>
+
+
+  <!-- jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+
+
+</body>
+</html>
